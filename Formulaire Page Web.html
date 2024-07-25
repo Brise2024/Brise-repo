@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice : Forlumaire sur la page Web</title>
+  </head>
+  <body>
+    <style>
+        p {margin-bottom :0px; margin-top : 2px;}
+        textarea {width: 30%; height: 100px;}
+        body {zoom: 78%;}
+    </style>
+    <form action="https://online.kadea.co/">
+        <p>First Name : </p><input type="text" required>
+        <p>Last Name : </p><input type="text" required>
+        <p>E-mail : </p><input type="email" required>
+        <p>Password : </p><input type="password" required>
+    <p>Gender:</p>
+    <label   for="Male"> 
+      <input id="Male" type="radio" name="Gender"> Male <br>
+    </label>
+    <label   for="Female"> 
+      <input id="Female" type="radio" name="Gender"> Female <br> 
+    </label>
+    <label   for="Other"> 
+      <input id="Other" type="radio" name="Gender" checked> Other 
+    </label>
+   
+    <p>Date of Birth: </p><input type="date">
+    <p>Website : </p><input type="url">
+    <p>Country : </p>
+    <select name="Country">
+        <option value="USA" selected="selected">USA</option>
+        <option value="UK">UK</option>
+        <option value="Canada">Canada</option>   
+    </select>
+    <p>Message :</p><textarea></textarea><br>
+    <button type="submit">Submit</button>    
+    
+    </form>
+</body>
+      
